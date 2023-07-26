@@ -1,0 +1,47 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<div class="l-container p-top-content">
+			<h1>Info Page</h1>
+			<p class="instructions">View Transition Practice Page</p>
+			<a href="/">Home</a>
+			<a href="/about/">About</a>
+		</div>
+	</main>
+</Layout>
+
+<style lang="scss">
+	html {
+		background: aqua;
+	}
+	.p-top-content {
+		padding: 100px 0;
+
+		h1 {
+			text-align: center;
+			font-size: 32px;
+			letter-spacing: 0.05em;
+			line-height: 1.2;
+		}
+
+		p {
+			margin-top: 30px;
+			text-align: center;
+			font-size: 14px;
+			line-height: 1.8;
+			letter-spacing: 0.05em;
+		}
+
+		ul {
+			padding: 30px;
+			border-radius: 10px;
+			margin-top: 30px;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 30px;
+		}
+	}
+</style>
