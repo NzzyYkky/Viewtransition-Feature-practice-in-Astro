@@ -1,19 +1,27 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '../../layouts/Layout.astro';
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
 		<div class="l-container p-top-content">
-			<h1>Welcome to Astro</h1>
-			<p class="instructions">View Transition Practice Page</p>
-			<a href="/about/">About</a>
-			<a href="/info/">info</a>
+			<h1>About Page</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+				culpa magni maiores mollitia. Dicta magni alias numquam aliquam placeat
+				quos nam accusantium amet vero, quas voluptates dolore a quae porro.
+			</p>
+			<a href="/">Home</a>
+			<a href="/info/">Info</a>
 		</div>
 	</main>
 </Layout>
 
 <style lang="scss">
+	html {
+		background: pink;
+	}
+
 	.p-top-content {
 		padding: 100px 0;
 

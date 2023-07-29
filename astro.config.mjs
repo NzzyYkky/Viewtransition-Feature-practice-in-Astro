@@ -5,4 +5,7 @@ export default defineConfig({
 	server: {
 		open: true,
 	},
+	experimental: {
+		viewTransitions: true,
+	},
 });
